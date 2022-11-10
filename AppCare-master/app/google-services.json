@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "525361370747",
+    "firebase_url": "https://healthconsernapp-default-rtdb.firebaseio.com",
+    "project_id": "healthconsernapp",
+    "storage_bucket": "healthconsernapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525361370747:android:3aac2d27e04fb69128b4de",
+        "android_client_info": {
+          "package_name": "com.mca.healtyconsernapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525361370747-4ukdgf6i6vkvs77c1ts28b3sv7a7r5ic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKdIVKnH6h5NsRkmOazvZcw69hztVNvRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "525361370747-4ukdgf6i6vkvs77c1ts28b3sv7a7r5ic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

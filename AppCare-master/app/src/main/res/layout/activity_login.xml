@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blue"
+    android:paddingTop="70dp">
+
+    <ImageView
+        android:src="@drawable/ic_profile"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"/>
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="35dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/txtloginemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter username"
+        android:textColorHint="@color/black"
+        android:layout_margin="15dp"
+        />
+
+    <EditText
+        android:id="@+id/txtlpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter password"
+        android:textColorHint="@color/black"
+        android:layout_margin="15dp"
+        android:inputType="textPassword"
+        />
+
+    <Spinner
+        android:id="@+id/logintype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/forgot"
+        android:layout_gravity="end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_marginRight="25dp"
+        />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Login"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/txtsignup"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New User Register "
+        android:textColor="@color/black"
+        android:layout_marginTop="25dp"
+        />
+
+
+</LinearLayout>
